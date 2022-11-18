@@ -15,10 +15,10 @@ please answer the following question
     ${survey.body}
     </p>
     <div>
-    <a href="${keys.redirectDomain}/api/surveys/thanks">Yes</a>
+    <a href="${keys.redirectDomain}/api/surveys/${survey.id}/Yes">Yes</a>
     </div>
     <div>
-    <a href= "${keys.redirectDomain}/api/surveys/thanks"> no</a>
+    <a href= "${keys.redirectDomain}/api/surveys/${survey.id}/No"> no</a>
     </div>
 
     </div>
