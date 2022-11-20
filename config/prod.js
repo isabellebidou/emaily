@@ -1,4 +1,4 @@
-const { redirectDomain } = require("./dev");
+//const { redirectDomain } = require("./dev");
 
 // prod keys
 module.exports = {
